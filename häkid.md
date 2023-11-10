@@ -11,5 +11,5 @@
 3. `git push`
 
 #### Validaatorid
-[HTML](https://validator.w3.org/)
+[HTML](https://validator.w3.org/)  
 [CSS](https://jigsaw.w3.org/css-validator/)
