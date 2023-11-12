@@ -8,7 +8,8 @@
 #### Muudatuste lisamine 
 1. `git add .`
 2. `git commit -m "sõnum"`
-3. `git push`
+3. `git push`  
+   a. kui on haru pushimine, siis `git push -u origin <haru nimi>`
 
 #### Validaatorid
 [HTML](https://validator.w3.org/)  
