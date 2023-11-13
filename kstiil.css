@@ -45,3 +45,9 @@ nav{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+iframe{
+    padding: 10px;
+    width: 640px;
+    height: 937px;
+    margin: 0%;
+}
