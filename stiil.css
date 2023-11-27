@@ -44,3 +44,13 @@ nav{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+h2{
+    text-align: left;
+    color: aliceblue;
+    padding: 5%;
+    margin: 25;
+}
