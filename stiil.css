@@ -47,10 +47,8 @@ nav{
 h1{
     color: aliceblue;
     text-align: center;
+    font-size: xx-large;
 }
 h2{
-    text-align: left;
     color: aliceblue;
-    padding: 5%;
-    margin: 25;
 }

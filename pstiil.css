@@ -1,3 +1,23 @@
 .header{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pildid/taust.jpg);
 }
+.tulbad{
+    display: flex;
+    justify-content: space-around;
+}
+.tulp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+.tulp h2{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+li{
+    margin-bottom: 0.7rem;    
+    font-weight: 600;
+    font-size: 110%;
+}
