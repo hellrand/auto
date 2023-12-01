@@ -4,11 +4,17 @@
     padding: 0;
 }
 .header{
-    min-height: 100vh;
+    min-height: 30%;
     width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pildid/ummik.jpg);
+
+}
+.header ul a{
+    color: rgb(160, 204, 205);
+    text-decoration: none;
 }
 nav{
     display: flex;
@@ -43,4 +49,12 @@ nav{
 }
 .nav-links ul li:hover::after{
     width: 100%;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+h2{
+    color: aliceblue;
 }
