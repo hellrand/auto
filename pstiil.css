@@ -64,7 +64,7 @@ h2::after{
 h2:hover::after{
     width: 100%;
 }
-li{
+.tulbad li{
     margin-bottom: 0.7rem;    
     font-weight: 600;
     font-size: 110%;
