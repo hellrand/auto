@@ -52,7 +52,7 @@ button{
     margin-bottom: 1rem;
     margin-top: 3rem;
 }
-h2::after{
+.tulbad h2::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -61,16 +61,16 @@ h2::after{
     margin: auto;
     transition: 0.4s;
 }
-h2:hover::after{
+.tulbad h2:hover::after{
     width: 100%;
 }
-li{
+.tulbad li{
     margin-bottom: 0.7rem;    
     font-weight: 600;
     font-size: 110%;
     margin-left: 5%;
 }
-h2{
+.tulbad h2{
     color: aliceblue;    
     width: fit-content;
 }
