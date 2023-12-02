@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stiil.css">
     <link rel="stylesheet" href="pstiil.css">
+    <script src="nupp.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autojuhtimise hirmud</title>
@@ -26,15 +27,21 @@
         </nav>
         
     </div>  
-    <div class="tutvustus">
-            <h2>Tutvustus</h2>
-            <p>Meie leht räägib sõiduärevusest meie tehtud küsitluse vastuste põhjal</p>
-            <!--nupp loe edasi!!!-->
-            <p>Me palusime tutavatel, sõpradel, pereliikmetel vastata küsitlusele sõiduärevuse kohta. 
-                Meie veebilehekülg on kokkuvõte saadud vastustest. 
-                Siin leidub ka nippe, kuidas sõiduärevusest üle saada.
-            </p>
-        </div>    
+    <div class="kastike">
+        <h2>Kes me oleme?</h2>
+        <p>Meie oleme Rihard ja Beatrice. Üks meist kardab autoga sõita. Teine mitte.<span id="dots">..</span><span id="more"> 
+            <br>
+            <br>
+            Niisiis mõtlesime uurida kui suur mure see meie tutvusringkondades on. 
+            Lisaks tahtsime teada saada, kuidas sõiduärevusest jagu saada.<br>
+            Sellega seoses palusime neil vastata küsitlusele. 
+            <br>
+            <br>
+            Meie veebilehekülg ongi kokkuvõte saadud vastustest.
+            Siin leidub ka nippe, kuidas sõiduärevusest üle saada, nii et uuri kindlasti ka nõuandeid <a href="nouanded.html">siit!</a>
+        </span></p>
+        <button onclick="myFunction()" id="myBtn">Näita rohkem</button>
+           
         <div class="tulbad">
             <div class="tulp">
                 <h2>Peamised hirmud</h2> <!--äkki drop-down menüü?-->
@@ -46,15 +53,17 @@
                     <li>Jalgratturid</li>        
                 </ul>
             </div>
-            <div class="tulp">
+            <!-- <div class="tulp">
                 <h2>Millest hirmud tekivad</h2>
                 <ul>
                     <li>Vastutulevad autod</li>
                     <li>Helkurita jalakäijad</li>                
                 </ul>
-            </div>     
+            </div> -->  
         </div>
     
+    </div>
+
 
    
 </body>
