@@ -1,6 +1,10 @@
 body {
     background-color: rgb(47, 61, 79);
 }
+.header h1 a{
+    color: rgb(160, 204, 205);
+    text-decoration: none;
+}
 .kastike{
     padding-left: 5%;
     padding-top: 1rem;
