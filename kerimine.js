@@ -1,5 +1,6 @@
 // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1
-
+// Pealeht
+// Kerib nupuvajutusel avaekraanilt alla, et näidata rohkemat teksti. Kerida saab ka ise, kuid nupuvajutus teeb seda ise.
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {

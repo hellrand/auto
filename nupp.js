@@ -1,4 +1,6 @@
 // koodi autor: https://www.w3schools.com/howto/howto_js_read_more.asp
+// Antud JS väljastab nupuvajutusel rohkem teksti, kui algselt nähtaval on.
+// Pealeht
 
 function myFunction() {
     var dots = document.getElementById("dots");

@@ -1,5 +1,6 @@
 // koodi autor: https://www.youtube.com/watch?v=dGgkwdpmP6s
-
+// Nõuanded
+// Nupuvajutusel väljastab JS koerapildi veebilehe külastaja ekraanile.
 const img = document.getElementById("koerad")
 
 const newDog = function(){
