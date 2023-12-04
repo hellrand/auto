@@ -64,18 +64,6 @@ p{
     line-height: 2;
     font-size: 17px;
 }
-h2::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: rgb(211, 224, 68);
-    display: block;
-    margin: auto;
-    transition: 0.4s;
-}
-h2:hover::after{
-    width: fit-content;
-}
 #more{
     display: none;
 }
