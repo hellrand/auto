@@ -1,30 +1,53 @@
-body {
-    background-color: rgb(47, 61, 79);
+.header{
+    height: 50vh;
 }
-p{
-    line-height: 2;
+.header h2{
+    margin-top: 100px;
 }
 .nouanded{
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 1rem;
-    color: aliceblue;
-    text-align:justify;
-}
-.nouanded p{
-    font-size: 17px;
-}
-.nouanded h2{
+    margin-top: 100px;
     text-align: center;
-    margin-bottom: 1rem;
 }
-a{
-    color: aliceblue;
-    text-decoration: underline;
+.tulbad{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.tulp{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.tulp h3{
+    margin-bottom: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+.tulp p{
+    margin-top: 20px;
+}
+.tulp img{
+    width: 100%;
+    border-radius: 10px;
+}
+.tulp:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+#koerad{
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}
+#koerad h2{
+    margin-bottom: 20px;
+}
+#koerad img{
+    width: 60%;
+    align-items: center;
 }

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="stiil.css">
     <link rel="stylesheet" href="pstiil.css">
     <script src="nupp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="kerimine.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autojuhtimise hirmud</title>
@@ -16,16 +18,20 @@
         <nav>                
             <h1><a href="pealeht.html">Sõiduärevus</a></h1>
             <div class="nav-links">
-
                 <ul>
+                    <li><a href="pealeht.html">KODU</a></li>
+                    <li><a href="kogemused.html">KOGEMUSED</a></li> 
                     <li><a href="nouanded.html">NÕUANDED</a></li>
-                    <li><a href="kogemused.html">KOGEMUSED</a></li>
                 </ul>
             </div>
         </nav>
         
+        <div class="kerimine">
+            <h2>Sõiduärevus mõjutab 80% algajatest juhtidest </h2>
+            <a href="#alumine" class="nupp">Vajuta, et sõiduärevusest rohkem teada saada</a>
+        </div>
     </div>  
-    <div class="kastike">
+    <div class="kastike" id="alumine">
         <h2>Kes me oleme?</h2>
         <p>Meie oleme Rihard ja Beatrice. Üks meist kardab autoga sõita. Teine mitte.<span id="dots">..</span><span id="more"> 
             <br>
@@ -40,29 +46,40 @@
         </span></p>
         <button onclick="myFunction()" id="myBtn">Näita rohkem</button>
            
-        <div class="tulbad">
-            <div class="tulp">
-                <h2>Peamised hirmud</h2> <!--äkki drop-down menüü?-->
-                <ul>
-                    <li>Vastutulevad autod</li>
-                    <li>Helkurita jalakäijad</li>  
-                    <li>Ebaviisakad kaasliiklejad</li>  
-                    <li>Avariisse sattumisoht</li>    
-                    <li>Jalgratturid</li>        
-                </ul>
+        
+        <div class="hirmud">
+            <h2>Hirmud</h2>
+            <p>Inimesed kardavad autot juhtides erinevaid asju. Siin on välja toodud mõned hirmud.</p>
+            <div class="tulbad">
+                <div class="tulp">
+                    <h3>Vastutulevad autod</h3> 
+                    <img src="pildid/vastutulev.jpeg" alt="vastutulev auto">
+                </div>
+                <div class="tulp">
+                    <h3>Helkurita jalakäijad</h3>
+                    <img src="pildid/helkur.webp" alt="helkur">
+                </div>
+                <div class="tulp">
+                    <h3>Avariisse sattumisoht</h3>
+                    <img src="pildid/avarii.webp" alt="avrii">
+                </div>           
             </div>
-            <!-- <div class="tulp">
-                <h2>Millest hirmud tekivad</h2>
-                <ul>
-                    <li>Vastutulevad autod</li>
-                    <li>Helkurita jalakäijad</li>                
-                </ul>
-            </div> -->  
+
+        </div> 
+        
+        <div class="soovitused">
+            <h2>Mida edasi teha?</h2>
+            <p>Kui sindki vaevab sõiduärevus võid lugeda teiste inimeste kogemustest või leida nõu.</p>
+            <div class="nupud">
+                <div class="lingid">
+                    <a href="kogemused.html" class="button">Kogemused</a>
+                </div>
+                <div class="lingid">
+                    <a href="nouanded.html" class="button">Nõuanded</a>
+                </div>               
+            </div>        
         </div>
     
-    </div>
-
-
-   
+    </div>  
 </body>
 </html>

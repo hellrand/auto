@@ -1,10 +1,40 @@
-body {
-    background-color: rgb(47, 61, 79);
+.header{
+    height: 100vh;
+}
+.kerimine{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.kerimine h2{
+    margin-bottom: 2rem;
+}
+.nupp{
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(160, 204, 205);
+    border: 1px solid rgb(160, 204, 205);
+    padding: 20px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.nupp:hover{
+    border: 1px solid rgb(211, 224, 68);
+    color: rgb(211, 224, 68);
+    background: transparent;
+    transition: 1s;
 }
 .kastike{
-    padding-left: 5%;
-    padding-top: 1rem;
-    color: aliceblue;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(47, 61, 79);
 }
 .kastike h2{
     margin-bottom: 1rem;
@@ -12,18 +42,58 @@ body {
 .kastike p{
     font-size: 17px;
 }
-p{
-    line-height: 2;
-    width: 50%;
+.kastike a{
+    color: rgb(47, 61, 79);
+    text-decoration: none;
+    font-style: italic;
 }
-a{
-    color: aliceblue;
-    text-decoration: underline;
+.hirmud{
+    margin-top: 100px;
 }
-#more{
-    display: none;
+.tulbad{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
-button{
+.tulp{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.tulp img{
+    width: 100%;
+    border-radius: 10px;
+}
+.tulp h3{
+    margin-bottom: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+.tulp:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.soovitused{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.nupud{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lingid{
+    margin-top: 50px;
+}
+.lingid a{
+    font-style: normal;
+}
+.button{
     background: rgb(160, 204, 205);
     color: rgb(47, 61, 79);
     font-size: 17px;
@@ -31,48 +101,9 @@ button{
     border: 1px solid rgb(160, 204, 205);
     width: 130px;
     height: 50px;
-    display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    padding: 10px;
+    padding: 13px;
     margin-top: 1rem;
-}/*
-.tulp{
-    display: flex;
-    justify-content: space-around;
-}
-
-.tulp{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    color: aliceblue;
-}*/
-.tulp h2{
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-}
-h2::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: rgb(211, 224, 68);
-    display: block;
-    margin: auto;
-    transition: 0.4s;
-}
-h2:hover::after{
-    width: 100%;
-}
-.tulbad li{
-    margin-bottom: 0.7rem;    
-    font-weight: 600;
-    font-size: 110%;
-    margin-left: 5%;
-}
-h2{
-    color: aliceblue;    
-    width: fit-content;
 }

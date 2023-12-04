@@ -1,33 +1,56 @@
-body {
-    background-color: rgb(47, 61, 79);
+.header{
+    height: 50vh;
 }
-p{
-    line-height: 2;
+.header h2{
+    margin-top: 100px;
+}
+.sisu{
+   width: 80%;
+   margin: auto;
+   padding-top: 80px;
+   display: flex;
+   justify-content: space-around; 
 }
 .jutt{
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 1rem;
-    padding-bottom: 10rem;
-    color: aliceblue;
-    text-align:justify;
-}
-.jutt p{
-    font-size: 17px;
+    flex-basis: 48%;
+    padding: 20px 2px;
 }
 .jutt h2{
     text-align: center;
     margin-bottom: 1rem;
 }
-a{
-    color: aliceblue;
-    text-decoration: underline;
+.s2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; 
+ }
+ .j2{
+     flex-basis: 48%;
+     padding: 20px 2px;
+ }
+ .s3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; 
+ }
+ .j3{
+     flex-basis: 48%;
+     padding: 30px 2px;
+ }
+.j3 a{
+    text-decoration: none;
+    font-style: italic;
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.veel{
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
 }
-
+.veel p{
+    padding-top: 20px;
+}
+.veel button{
+    margin-bottom: 100px;
+}

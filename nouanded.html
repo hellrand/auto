@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="nstiil.css">
     <link rel="stylesheet" href="stiil.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="koerad.js" async defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,28 +19,59 @@
             <div class="nav-links"> 
                 <ul>
                     <li><a href="pealeht.html">KODU</a></li>
-                    <li><a href="kogemused.html">KOGEMUSED</a></li>
+                    <li><a href="kogemused.html">KOGEMUSED</a></li> 
+                    <li><a href="nouanded.html">NÕUANDED</a></li>
                 </ul>
             </div>
         </nav>
-            
+        <h2>Nõuanded</h2>    
     </div> 
     <div class="nouanded">
-        <h2>Nõuanded</h2>
-        <img src="pildid/auto.webp" alt="õnnelik autojuht"> 
-        <p> <br>
-            Küsitlusest selgus, et kõige effektiivsem viis, kuidas sõiduärevusest jagu saada, on toetav sõber või tuttav, kes oskab aidata ja juhendada liikluses ning sellega seonduvas. 
-            Autokool annab baasteadmised liiklusest, kuid alati ei jää piisavalt aega, et kõike täielikult autokoolis ära õppida. Näiteks, parkimise saab autokoolis enamvähem selgeks, kuid selle täielik oskamine tuleb aja ning kogemusega. 
-            Seda kogemust saab laenata teistelt, kes on sama rada juba läbinud ning jagavad õpetusi, kuidas soovitud alas paremaks saada.
-            <br>
-            <br>
-            Teisel kohal on eraldi harjutamine. Sellise lähenemisega saab konkreetsele probleemile keskenduda ning harjutada. 
-            Näiteks, Rihard sai parkimise probleemist jagu enda meelega rasketesse olukordadesse panekuga, et võimalikult palju harjutada ning näha, kas on võimalik kitsasse kohta parkida või ei.
-            <br>
-            <br>
-            Vastustest tuleb veel välja, et mõtlemise kontroll on vajalik ärevusest jagu saamiseks. Väikesed intsidendid peaksid autojuhi peast kiiruga välja minema. 
-            Kuna liiklus ikkagi liigub edasi, siis ei tasu vimma sees hoida ning ise ebaviisakaks liiklejaks hakata. 
-        </p>
+        <h2>Siin on mõned soovitused sõiduärevusega toimetulemiseks</h2>
+            <div class="tulbad">
+                <div class="tulp">
+                    <h3>Toetav sõber</h3> 
+                    <img src="pildid/sober.webp" alt="sober">
+                    <p>
+                        Küsitlusest selgus, et kõige effektiivsem viis, kuidas sõiduärevusest jagu saada, on toetav sõber või tuttav, kes oskab aidata ja juhendada liikluses ning sellega seonduvas. 
+                        <br>
+                        <br>
+                        Autokool annab baasteadmised liiklusest, kuid alati ei jää piisavalt aega, et kõike täielikult autokoolis ära õppida. 
+                        <br>
+                        Näiteks, parkimise saab autokoolis enamvähem selgeks, kuid selle täielik oskamine tuleb aja ning kogemusega. 
+                        <br>
+                        <br>
+                        Seda kogemust saab laenata teistelt, kes on sama rada juba läbinud ning jagavad õpetusi, kuidas soovitud alas paremaks saada.
+                    </p>
+                </div>
+                <div class="tulp">
+                    <h3>Harjutamine</h3>
+                    <img src="pildid/parkimine.webp" alt="parkimine">
+                    <p>Teisel kohal on eraldi harjutamine. Sellise lähenemisega saab konkreetsele probleemile keskenduda ning harjutada. 
+                        <br>
+                        <br>
+                        Näiteks sai Rihard parkimise probleemist jagu kui ta pani meelega ennast keerulistesse olukordadesse. 
+                        <br>
+                        <br>
+                        Sellise lähenemisviisiga sai ta võimalikult palju harjutada ning sai aru kui kitsasse kohta parkimine võimalik.
+                    </p>
+                </div>
+                <div class="tulp">
+                    <h3>Mõtlemise kontrollimine</h3>
+                    <img src="pildid/zen.webp" alt="meditatsioon">
+                    <p>
+                        Vastustest tuleb veel välja, et mõtlemise kontroll on vajalik ärevusest jagu saamiseks. 
+                        <br>
+                        <br>
+                        Väikesed intsidendid peaks autojuht kohe unustama.
+                        Kuna liiklus ikkagi liigub edasi, siis ei tasu vimma sees hoida ning ise ebaviisakaks liiklejaks hakata. 
+                    </p>
+                </div>           
+            </div>
+        <div id="koerad">
+            <h2>Ärevuse maandamiseks</h2>
+            <button id="btn" onclick="newDog()">Koer!</button>       
+        </div>    
     </div>
        
 </body>
