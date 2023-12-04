@@ -1,5 +1,5 @@
 // koodi autor: https://www.w3schools.com/howto/howto_js_read_more.asp
-// Antud JS väljastab nupuvajutusel rohkem teksti, kui algselt nähtaval on.
+// Antud JS väljastab ja peidab nupuvajutusel rohkem teksti, kui algselt nähtaval on.
 // Pealeht
 
 function myFunction() {
